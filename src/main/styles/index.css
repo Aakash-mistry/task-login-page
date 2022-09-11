@@ -7,6 +7,10 @@ body{
      border:0!important
 }
 
+fieldset{
+     border:0
+}
+
 .MuiButton-contained{
      color:#fff!important
 }
