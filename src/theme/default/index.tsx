@@ -15,6 +15,25 @@ export const defaultTheme = createTheme({
           },
      },
      components: {
+          MuiInputBase: {
+               styleOverrides: {
+                    root: {
+                         border: 0,
+                    },
+               },
+          },
+          MuiTextField: {
+               styleOverrides: {
+                    root: {
+                         border: 0,
+                    },
+               },
+               defaultProps: {
+                    style: {
+                         border: 0,
+                    },
+               },
+          },
           MuiButton: {
                defaultProps: {
                     style: {
