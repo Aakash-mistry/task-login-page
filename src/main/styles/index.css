@@ -3,12 +3,12 @@ body{
      padding:0;
 }
 
-.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+/* .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
      border:0!important
-}
+} */
 
 fieldset{
-     border:0
+     border:0!important
 }
 
 .MuiButton-contained{
